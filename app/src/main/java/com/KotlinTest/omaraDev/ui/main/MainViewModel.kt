@@ -15,7 +15,7 @@ class MainViewModel : ViewModel {
         this.mainRepo = mainRepo
     }
 
-    public fun getPosts(): MutableLiveData<List<Posts>> {
+     fun getPosts(): MutableLiveData<List<Posts>> {
         return mainRepo.getPosts()
     }
 }

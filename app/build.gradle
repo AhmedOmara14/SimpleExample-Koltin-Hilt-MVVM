@@ -14,6 +14,7 @@ android {
         applicationId "com.KotlinTest.omaraDev"
         minSdkVersion 16
         targetSdkVersion 30
+        multiDexEnabled true
         versionCode 1
         versionName "1.0"
 
@@ -64,4 +65,8 @@ dependencies {
     implementation 'com.github.bumptech.glide:glide:4.11.0'
     implementation("com.squareup.okhttp3:logging-interceptor:4.9.1")
 
+    //RxKotlin
+    implementation("io.reactivex.rxjava2:rxkotlin:2.0.0")
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.8.1'
 }
